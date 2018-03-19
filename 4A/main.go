@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Solution(w int) string{
+func Solution(w int) string {
 	if (w-2)%2 == 0 && (w-2) != 0 {
 		return "YES"
 	}
